@@ -7,14 +7,15 @@
 }
 
 body {
-    font-family: Raleway, sans-serif ;
+    font-family: Raleway, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
 }
 
 /* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Playfair Display, serif;
     font-weight: 900;
     text-transform: capitalize;
@@ -34,7 +35,8 @@ h1, h2 {
     letter-spacing: 2px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -70,4 +72,16 @@ h1, h2 {
     width: 100%;
     background: url('/assets/images/connemara_national_park.jpg') no-repeat center center;
     background-size: cover;
+}
+
+/* Hiking Benefits */
+
+#hiking-benefits {
+    height: 600px;
+}
+
+#benefits-heading {
+    text-align: center;
+    font-size: 280%;
+    margin: 20px 0;
 }
