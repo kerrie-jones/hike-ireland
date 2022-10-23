@@ -27,7 +27,7 @@ h1, h2 {
     font-size: 280%;
 }
 
-/* navigation links */
+/* navigation links code taken from CI love-running project*/
 
 #menu {
     font-size: 120%;
@@ -57,7 +57,7 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* hero image */
+/* hero image code taken from CI love-running project*/
 
 #hero-outer {
     height: 600px;
