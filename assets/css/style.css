@@ -73,7 +73,7 @@ h2 {
 #cover-text,
 #cover-text h2 {
     color: #fff;
-    text-transform: none;
+    text-transform: uppercase;
     padding-bottom: 20px;
 }
 
@@ -95,14 +95,14 @@ h3 {
     letter-spacing: 4px;
     text-transform: none;
 
-    width: 350px;
-    height: 200px;
+    width: 440px;
+    height: 160px;
     border-radius: 10px / 30px;
 
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left: 10px;
 
-    background-color: rgba(191, 132, 59, .7);
+    background-color: rgba(191, 132, 59, .6);
 
     bottom: 30px;
     right: 100px;
@@ -122,3 +122,16 @@ h3 {
     font-size: 280%;
     margin: 20px 0;
 }
+
+/* Best hikes */
+
+#best-hikes {
+    height: 600px;
+}
+
+#best-hikes-heading {
+    text-align: center;
+    font-size: 280%;
+    margin: 20px 0;
+}
+
