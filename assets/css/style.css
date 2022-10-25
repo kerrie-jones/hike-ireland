@@ -161,9 +161,10 @@ h3 {
     height: 600px;
     width: 100%;
     color: #3a3a3a;
-    margin-top: 20px;
-    padding-top: 20px;
+    margin-top: 30px;
     
+    /* background-image: url(../images/white-sheep.jpg); */
+    background-size: cover;
 
 }
 
@@ -172,23 +173,48 @@ h3 {
     font-size: 280%;
     color: #fff;
     padding-left: 30px;
-    background-color: #59514F;
-
+    background-color: #592202;
 }
+
+
 
 #provinces div {
     width: 350px;
+    height: 100%;
     float: left;
-    padding: 5px;
     margin: 5px;
-    background-color: #A3B4BF; 
+    background-color: #595859; 
     box-sizing: border-box;
-    
-   
+    padding-bottom: 30px;
+     
 }
 
 #provinces h2 {
     text-align: center;
+    padding: 20px;
+}
+
+#provinces h3 {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+#best-hikes-quote,
+#best-hikes-quote h2 {
+    color: rgb(14, 12, 12);
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+#best-hikes-quote,
+h3 {
+    font-family: Raleway, sans-serif;
+}
+
+#best-hikes-qoute {
+    height: 100%;
+    background-color: #592202;
+    float: left;
 }
 
     
