@@ -4,8 +4,6 @@
     margin: 0;
     padding: 0;
     border: none;
-    box-sizing: border-box;
-
 }
 
 body {
@@ -165,6 +163,7 @@ h3 {
     color: #3a3a3a;
     margin-top: 20px;
     padding-top: 20px;
+    
 
 }
 
@@ -183,6 +182,7 @@ h3 {
     padding: 5px;
     margin: 5px;
     background-color: #A3B4BF; 
+    box-sizing: border-box;
     
    
 }
