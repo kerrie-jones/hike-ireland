@@ -96,19 +96,14 @@ h3 {
     font-family: Playfair Display, serif;
     letter-spacing: 4px;
     text-transform: none;
-
     width: 440px;
     height: 160px;
     border-radius: 10px / 30px;
-
     padding-top: 20px;
     padding-left: 10px;
-
     background-color: rgba(191, 132, 59, .6);
-
     bottom: 30px;
     right: 100px;
-
     position: absolute;
 
 }
@@ -130,7 +125,7 @@ h3 {
     height: 500px;
     width: 50%;
     max-width: 600px;
-    float: right;  
+    float: right;
     background-color: whitesmoke;
     padding-right: 100px;
     padding-bottom: 20px;
@@ -144,7 +139,7 @@ h3 {
     width: 50%;
     margin: 0;
     border-radius: 50%;
-    }
+}
 
 #benefits-text h2 {
     padding: 20px 5px 10px 10px;
@@ -152,7 +147,7 @@ h3 {
 
 #benefits-text p {
     text-align: justify;
-    
+
 }
 
 /* hikes in Ireland */
@@ -163,7 +158,7 @@ h3 {
     color: #3a3a3a;
     margin-top: 30px;
     background-image: url(../images/white-sheep.jpg);
-    box-shadow: inset 0 0 0 50vw rgba(89,88,89, .5);
+    box-shadow: inset 0 0 0 50vw rgba(89, 88, 89, .5);
     background-size: cover;
     box-sizing: border-box;
 
@@ -186,9 +181,9 @@ h3 {
     margin: 5px;
     margin-top: 30px;
     color: #fff;
-    background-color: rgba(94, 123, 140, .5); 
+    background-color: rgba(94, 123, 140, .5);
     box-sizing: border-box;
-    padding-bottom: 30px;    
+    padding-bottom: 30px;
 }
 
 #provinces h2 {
@@ -204,39 +199,29 @@ h3 {
 /* Quote Section */
 
 #quote-section {
-    background: #fff;
     height: 600px;
+    background-color: #261616;
 }
 
 #best-hikes-quote {
     float: left;
-    background-color: #BF843B;
-    height: 100px;
-    width: 100%;
-    padding-bottom: 10px;
-    
-    
-
-}
-
-#best-hikes-quote,
-#best-hikes-quote h2 {
-    color:  #261616;
-    text-transform: uppercase;
-    padding-bottom: 10px;
+    background-color: #fff;
+    height: 140px;
+    width: 500px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-transform: initial;
+    border-radius: 10px / 30px;
+    color: #261616;
     text-align: center;
-
-}
-
-#best-hikes-quote,
-h3 {
-    font-family: Raleway, sans-serif;
-    text-transform: capitalize;
-    color: #fff;
 }
 
 
-    
+#best-hikes-quote h2 {
+    font-size: 180%;
+    text-transform: initial;
+}
+
 /* Footer code taken from CI love-running project */
 footer {
     height: 50px;
@@ -246,9 +231,6 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-
-    
-    
 }
 
 .social-networks {
@@ -257,7 +239,7 @@ footer {
     display: inline;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -275,6 +257,6 @@ footer {
 #copyright {
     float: right;
     margin-top: 15px;
-    
-    
+
+
 }
