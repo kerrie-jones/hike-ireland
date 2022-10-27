@@ -174,7 +174,9 @@ h3 {
     font-size: 280%;
     color: #fff;
     padding-left: 30px;
+    padding-bottom: 5px;
     background-color: #261616;
+
 }
 
 #provinces div {
@@ -182,8 +184,9 @@ h3 {
     height: 100%;
     float: left;
     margin: 5px;
+    margin-top: 30px;
     color: #fff;
-    background-color: rgba(94, 123, 140, .7); 
+    background-color: rgba(94, 123, 140, .5); 
     box-sizing: border-box;
     padding-bottom: 30px;    
 }
@@ -198,21 +201,26 @@ h3 {
     margin-left: 10px;
 }
 
+#quote-section {
+    background: #fff;
+    height: 600px;
+}
+
 #best-hikes-quote {
     float: left;
-    background-color: #59514F;
+    background-color: #BF843B;
     height: 100px;
     width: 100%;
     margin-top: 10px;
-    padding: 20px;
     padding-bottom: 10px;
+    padding-top: 10px;
     
 
 }
 
 #best-hikes-quote,
 #best-hikes-quote h2 {
-    color: #fff;
+    color:  #261616;
     text-transform: uppercase;
     padding-bottom: 10px;
     text-align: center;
@@ -223,17 +231,29 @@ h3 {
 h3 {
     font-family: Raleway, sans-serif;
     text-transform: capitalize;
+    color: #fff;
 }
 
 
     
 /* Footer code taken from CI love-running project */
 footer {
-    height: 150px;
+    height: 50px;
+    background-color: rgba(38, 22, 22, .8);
+    color: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 10px;
+    
+    
 }
 
 .social-networks {
     text-align: center;
+    margin-left: 10px;
+    display: inline;
 }
 
 .social-networks > li {
@@ -242,7 +262,18 @@ footer {
 
 .social-networks i {
     font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
+    margin: 10px;
+    color: #fff;
+}
+
+#find-us {
+    display: inline;
+    margin-left: 30px;
+}
+
+#copyright {
+    float: right;
+    margin-top: 25px;
+    
+    
 }
