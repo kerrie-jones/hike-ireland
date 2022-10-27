@@ -118,6 +118,7 @@ h3 {
     text-align: center;
     font-size: 280%;
     margin: 20px 0;
+    line-height: 75px;
 }
 
 #benefits-text {
@@ -171,6 +172,7 @@ h3 {
     padding-left: 30px;
     padding-bottom: 5px;
     background-color: #261616;
+    line-height: 75px;
 
 }
 
@@ -183,17 +185,24 @@ h3 {
     color: #fff;
     background-color: rgba(94, 123, 140, .5);
     box-sizing: border-box;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 #provinces h2 {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
+    font-size: 200%;
 }
 
-#provinces h3 {
-    padding: 5px;
-    margin-left: 10px;
+#provinces ol {
+    margin-left: 35px;
+    padding: 10px;
+    font-size: 120%;
+    font-weight: 900;
+}
+
+li {
+    margin-bottom: 10px;
 }
 
 /* Quote Section */
