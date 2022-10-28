@@ -112,6 +112,9 @@ h3 {
 
 #hiking-benefits {
     height: 600px;
+    padding-bottom: 20px;  
+    background-color: rgba(245, 245, 245, .8);
+
 }
 
 #benefits-heading {
@@ -127,9 +130,9 @@ h3 {
     width: 50%;
     max-width: 600px;
     float: right;
-    background-color: whitesmoke;
     padding-right: 100px;
     padding-bottom: 20px;
+  
 
 }
 
@@ -205,30 +208,46 @@ li {
     margin-bottom: 10px;
 }
 
-/* Quote Section */
+/* Signup Section */
 
-#quote-section {
+#signup {
     height: 600px;
-    background-color: #261616;
+    background: url(../images/man_hiking_solo.jpg) no-repeat center center; 
+    background-size: cover;
+   
 }
 
-#best-hikes-quote {
+#signup-heading {
     float: left;
-    background-color: #fff;
+    width: 100%;
+    font-size: 280%;
+    padding-left: 30px;
+    background-color: whitesmoke;
+    line-height: 75px;
+
+}
+
+#signup-quote {
     height: 140px;
     width: 500px;
+    float: left;
     padding-bottom: 20px;
     padding-top: 20px;
     text-transform: initial;
     border-radius: 10px / 30px;
-    color: #261616;
+    color: #fff;
     text-align: center;
+    top: 300px;
+    left: 30px;
+    position: relative;
+    background-color: rgba(191, 132, 59, .9);
 }
 
 
-#best-hikes-quote h2 {
+#signup-quote h2 {
     font-size: 180%;
     text-transform: initial;
+    color: #fff;
 }
 
 /* Footer code taken from CI love-running project */
