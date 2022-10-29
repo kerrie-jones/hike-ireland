@@ -225,11 +225,11 @@ li {
     padding: 10px 24px;
     text-align: center;
     font-size: 24px;
-    float: left;
-    margin: 20px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 250px;
     border-radius: 4px;
-    border: 2px solid #283040;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 #hikes-link a {
@@ -238,7 +238,7 @@ li {
 }
 
 #hikes-link:hover {
-    background-color: #fff;
+    background-color: whitesmoke;
     color: #283040;
 }
 
