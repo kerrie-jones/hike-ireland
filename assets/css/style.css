@@ -363,12 +363,24 @@ footer {
     overflow: hidden;
     margin: 20px 200px;
     border-radius: 12px;
+    box-sizing: border-box;
+}
 
+input, label {
+    width: 250px;
+    margin: 20px;
+    font-family: inherit;
+    font-size: 120%;
+    display: inline;
+}
 
-
-
-
-
-
+label {
+    color: #fff;
 
 }
+
+input {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
