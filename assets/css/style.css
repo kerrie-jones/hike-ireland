@@ -124,35 +124,45 @@ h3 {
     line-height: 75px;
 }
 
+
 #benefits-text {
-    font-size: 100%;
+    font-size: 120%;
     height: 500px;
-    width: 50%;
-    max-width: 600px;
-    float: right;
+    width: 66%;
+    max-width: 1000px;
     padding-right: 100px;
     padding-bottom: 20px;
-  
+    float: right;
 
-}
-
-#benefits-bg-img {
-    background: url('../images/male_hiker.jpg') no-repeat center center;
-    background-size: contain;
-    height: 80%;
-    width: 50%;
-    margin: 0;
-    border-radius: 50%;
 }
 
 #benefits-text h2 {
     padding: 20px 5px 10px 10px;
+    text-align: center;
 }
 
 #benefits-text p {
     text-align: justify;
+    width: 100%;
 
 }
+
+#benefits-bg-container {
+    width: 500px;
+    height: 500px;
+    padding: 5px;
+    border-radius: 50%; 
+    margin-left: 5%;  
+}
+
+#benefits-bg-img {
+    background: url('../images/male_hiker.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
 
 /* hikes in Ireland */
 
@@ -161,8 +171,8 @@ h3 {
     width: 100%;
     color: #3a3a3a;
     margin-top: 30px;
-    background-image: url(../images/white-sheep.jpg);
-    box-shadow: inset 0 0 0 50vw rgba(89, 88, 89, .5);
+    background-image: url(../images/man_hiking_solo.jpg);
+    box-shadow: inset 0 0 0 50vw rgba(89, 88, 89, .4);
     background-size: cover;
     box-sizing: border-box;
 
@@ -174,17 +184,18 @@ h3 {
     color: #fff;
     padding-left: 30px;
     padding-bottom: 5px;
-    background-color: #261616;
+    background-color: #283040;
     line-height: 75px;
 
 }
 
+
 #provinces div {
-    width: 350px;
+    width: 23%;
     height: 100%;
     float: left;
-    margin: 5px;
     margin-top: 30px;
+    margin-left: 15px;
     color: #fff;
     background-color: rgba(94, 123, 140, .5);
     box-sizing: border-box;
@@ -205,15 +216,19 @@ h3 {
 }
 
 li {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+#hikes-button {
+    float: left;
+    margin: 50px;
 }
 
 /* Signup Section */
 
 #signup {
     height: 600px;
-    background: url(../images/man_hiking_solo.jpg) no-repeat center center; 
-    background-size: cover;
+background-color: whi;
    
 }
 
