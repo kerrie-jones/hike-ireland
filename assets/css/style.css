@@ -37,7 +37,7 @@ h2 {
 #menu {
     font-size: 120%;
     letter-spacing: 2px;
-    
+
 }
 
 #menu,
@@ -113,7 +113,7 @@ h3 {
 
 #hiking-benefits {
     height: 600px;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
     background-color: rgba(245, 245, 245, .8);
 
 }
@@ -152,8 +152,8 @@ h3 {
     width: 500px;
     height: 500px;
     padding: 5px;
-    border-radius: 50%; 
-    margin-left: 5%;  
+    border-radius: 50%;
+    margin-left: 5%;
 }
 
 #benefits-bg-img {
@@ -174,6 +174,7 @@ h3 {
     box-shadow: inset 0 0 0 50vw rgba(89, 88, 89, .4);
     background-size: cover;
     box-sizing: border-box;
+    overflow: hidden;
 
 }
 
@@ -194,17 +195,19 @@ h3 {
     height: 100%;
     float: left;
     margin-top: 30px;
-    margin-left: 15px;
+    margin-left: 5px;
     color: #fff;
     background-color: rgba(94, 123, 140, .5);
     box-sizing: border-box;
     padding-bottom: 20px;
+
 }
 
 #provinces h2 {
     text-align: center;
     padding: 10px;
-    font-size: 200%;
+    font-size: 250%;
+    text-transform: uppercase;
 }
 
 #provinces ol {
@@ -246,8 +249,8 @@ li {
 
 #signup {
     height: 600px;
-background-color: whitesmoke;
-   
+    background-color: whitesmoke;
+
 }
 
 #signup-heading {
@@ -327,13 +330,45 @@ footer {
     padding: 20px;
     clear: both;
     line-height: 3;
-    column-count:4;
-    column-gap: 10px; 
-    
+    column-count: 4;
+    column-gap: 10px;
+
 }
 
-#pictures > img {
+#pictures>img {
     width: 100%;
     border-radius: 16px;
-    
+
+}
+
+/* Signup page */
+
+#form-bg {
+    height: 90vh;
+    width: 100vw;
+    background-size: cover;
+    background-image: url(../images/gorse_bush.jpg);
+    overflow: hidden;
+    float: left;
+    position: relative;
+
+}
+
+.form-section {
+    width: 50vw;
+    height: 75vh;
+    padding: 5px;
+    background-color: rgba(38, 22, 22, .7);
+    float: right;
+    overflow: hidden;
+    margin: 20px 200px;
+    border-radius: 12px;
+
+
+
+
+
+
+
+
 }
