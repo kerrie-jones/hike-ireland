@@ -245,46 +245,16 @@ li {
     color: #283040;
 }
 
-/* Signup Section */
+/* Links Section */
 
-#signup {
+#links-section {
     height: 600px;
     background-color: whitesmoke;
 
 }
 
-#signup-heading {
-    float: left;
-    width: 100%;
-    font-size: 280%;
-    padding-left: 30px;
-    background-color: whitesmoke;
-    line-height: 75px;
-
-}
-
-#signup-quote {
-    height: 140px;
-    width: 500px;
-    float: left;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    text-transform: initial;
-    border-radius: 10px / 30px;
-    color: #fff;
-    text-align: center;
-    top: 300px;
-    left: 30px;
-    position: relative;
-    background-color: rgba(191, 132, 59, .9);
-}
 
 
-#signup-quote h2 {
-    font-size: 180%;
-    text-transform: initial;
-    color: #fff;
-}
 
 /* Footer code taken from CI love-running project */
 footer {
@@ -345,7 +315,7 @@ footer {
 
 #form-bg {
     height: 90vh;
-    width: 100vw;
+    width: 100%;
     background-size: cover;
     background-image: url(../images/gorse_bush.jpg);
     overflow: hidden;
@@ -354,33 +324,68 @@ footer {
 
 }
 
-.form-section {
-    width: 50vw;
-    height: 75vh;
+form {
+    width: fit-content;
+    height: fit-content;
     padding: 5px;
     background-color: rgba(38, 22, 22, .7);
-    float: right;
     overflow: hidden;
-    margin: 20px 200px;
-    border-radius: 12px;
+    border-radius: 20px;
     box-sizing: border-box;
+    font-size: 120%;
+    margin: 30px;
+    
 }
 
-input, label {
-    width: 250px;
-    margin: 20px;
+input,
+label {
+    margin: 10px 20px 20px 20px;
     font-family: inherit;
-    font-size: 120%;
     display: inline;
 }
 
 label {
     color: #fff;
+    display: inline-block;
+    width: 100px;
 
 }
 
 input {
     padding-top: 5px;
     padding-bottom: 10px;
+    color: black;
+    width: 160px;
 }
 
+fieldset {
+    border: #fff solid 1px;
+    border-radius: 10px;
+    color: #fff;
+    margin: 20px;
+    padding: 30px;
+    
+}
+
+#signup-quote {
+    height: fit-content;
+    width: fit-content;
+    float: left;
+    padding: 20px 10px;
+    margin: 20px;
+    text-transform: initial;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(191, 132, 59, .8);
+    clear: left;
+    box-sizing: border-box;
+    
+}
+
+
+#signup-quote h2 {
+    font-size: 180%;
+    text-transform: initial;
+    color: #fff;
+}
