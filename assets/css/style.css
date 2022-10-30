@@ -234,7 +234,7 @@ li {
     float: right;
     margin-top: 50px;
     margin-right: 250px;
-    border-radius: 4px;
+    border-radius: 10px;
     text-transform: capitalize;
 }
 
@@ -244,16 +244,44 @@ li {
 }
 
 #hikes-link:hover {
-    background-color: whitesmoke;
-    color: #283040;
+    background-color: #BF843B;
+    color: #fff;
+    box-shadow: 10px 20px 10px black;
 }
 
-/* Links Section */
+/* Info Section */
 
-#links-section {
+#info-section {
     height: 600px;
+    background-color: #A3B4BF;
+    
+}
+
+#info-heading {
+    text-align: center;
+    font-size: 280%;
+    margin: 20px 0;
+    line-height: 75px;
+    overflow: hidden;
     background-color: whitesmoke;
 
+}
+
+#newletter-info {
+    width: 25%;
+    height: fit-content;
+    background-color: whitesmoke; 
+    margin: 30px; 
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 120%;
+
+}
+
+#info-signup-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5px;
 }
 
 
@@ -296,7 +324,7 @@ footer {
     margin-top: 15px;
 }
 
-/* gallery code adapted from CI love-running project*/
+/* gallery secrtion code adapted from CI love-running project*/
 
 
 #pictures {
@@ -305,6 +333,7 @@ footer {
     line-height: 3;
     column-count: 4;
     column-gap: 10px;
+    background-color: #283040;
 
 }
 
@@ -365,18 +394,17 @@ input {
     color: #252525;
     font-size: 120%;
     background-color: #fff;
-    text-transform: uppercase ;
+    text-transform: uppercase;
 }
 
 #submit:hover {
     background-color: #BF843B;
-    color:#fff;
+    color: #fff;
     box-shadow: 10px 20px 10px black;
 }
 
-
 fieldset {
-    border: #fff solid 1px;
+    border: #fff solid 2px;
     border-radius: 10px;
     color: #fff;
     margin: 20px;
