@@ -112,18 +112,10 @@ h3 {
 /* Hiking Benefits */
 
 #hiking-benefits {
-    height: 700px;
+    height: 600px;
     padding-bottom: 20px;
-    background-color: rgba(245, 245, 245, .8);
+    background-color: rgba(245, 245, 245,);
     overflow: hidden;
-
-}
-
-#hiking-benefits-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
 
 }
 
@@ -134,42 +126,43 @@ h3 {
     line-height: 75px;
 }
 
+.benefits-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    height: 600px;
+}
 
-#benefits-text {
-    font-size: 100%;
-    height: 100%;
-    width: 50%;
-    float: right;
-    padding-right: 100px;
-    padding-bottom: 20px;
-    box-sizing: border-box;
-
+.benefits-text-container {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 50%
 }
 
 #benefits-text h2 {
-    padding: 20px 5px 10px 10px;
-    text-align: center;
+    padding: 5px;
+    margin-left: 30px;
 }
 
 #benefits-text p {
     text-align: justify;
-    width: 100%;
+    padding: 10px;
 
 }
 
-#benefits-bg-container {
+.benefits-image-container {
     width: 500px;
     height: 500px;
     padding: 5px;
-    border-radius: 50%;
-    margin-left: 5%;
+    border-radius: 50px;
 }
 
-#benefits-bg-img {
-    background: url('../images/male_hiker.jpg') no-repeat center center;
-    background-size: cover;
+#benefits-img {
     height: 100%;
-    border-radius: 50%;
+    background: url(../images/male_hiker.jpg) no-repeat center center;
+    background-size: cover;
+    border-radius: 50px;
 }
 
 /* hikes in Ireland */
@@ -179,12 +172,12 @@ h3 {
     width: 100%;
     color: #3a3a3a;
     margin-top: 30px;
-    background-image: url(../images/man_hiking_solo.jpg);
-    box-shadow: inset 0 0 0 50vw rgba(89, 88, 89,);
+    background: url(../images/rory-mckeever-td_JsC54l7w-unsplash.jpg);
+    box-shadow: inset 0 0 0 50vw rgba(89, 88, 89, );
     background-size: cover;
     box-sizing: border-box;
     overflow: hidden;
-    
+
 
 }
 
@@ -218,7 +211,7 @@ h3 {
 
 #provinces h2 {
     padding: 10px;
-    font-size: 250%;
+    font-size: 180%;
     text-transform: uppercase;
     color: #fff;
     margin-bottom: 10px;
@@ -227,12 +220,12 @@ h3 {
 #provinces ol {
     margin-left: 35px;
     padding: 10px;
-    font-size: 130%;
+    font-size: 110%;
     font-weight: 900;
 }
 
 li {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 #provinces i {
@@ -245,10 +238,9 @@ li {
     color: white;
     padding: 10px 24px;
     text-align: center;
-    font-size: 24px;
+    font-size: 120%;
     float: right;
-    margin-right: 50px;
-    margin-top: 50px;
+    margin-right: 250px;
     border-radius: 10px;
     text-transform: capitalize;
 }
@@ -268,22 +260,22 @@ li {
 
 #info-section {
     height: 600px;
-    background-image: url(../images/mathieu-habegger-8ymocOJwFUU-unsplash.jpg);
+    background: url(../images/mathieu-habegger-8ymocOJwFUU-unsplash.jpg);
     background-size: cover;
     overflow: hidden;
-    
+
 }
 
 #info-heading {
     text-align: center;
-    width:100%;
+    width: 100%;
     font-size: 280%;
     line-height: 75px;
     overflow: hidden;
     background-color: whitesmoke;
     overflow: hidden;
     padding: 5px;
-    
+
 
 }
 
@@ -292,13 +284,14 @@ li {
     height: 300px;
     background-color: rgba(191, 132, 59, .6);
     color: #fff;
-    margin: 30px; 
+    margin: 30px;
     padding: 10px;
     border-radius: 10px;
     font-size: 120%;
 
 }
-#newsletter-info > h2 {
+
+#newsletter-info>h2 {
     color: #fff;
     padding-bottom: 20px;
 }
@@ -307,7 +300,7 @@ li {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
 
 }
 
