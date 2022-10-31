@@ -114,7 +114,7 @@ h3 {
 #hiking-benefits {
     height: 600px;
     padding-bottom: 20px;
-    background-color: rgba(245, 245, 245,);
+    background-color: rgba(245, 245, 245, );
     overflow: hidden;
 
 }
@@ -203,15 +203,16 @@ h3 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    
+
 }
 
 #provinces div {
     color: #fff;
     background-color: rgba(40, 48, 64, .8);
     margin: 20px 5px;
-    height: fit-content;
-    
+    height: 380px;
+    width: 290px;
+
 }
 
 #provinces h2 {
@@ -228,6 +229,7 @@ h3 {
     font-weight: 900;
     padding-bottom: 20px;
     padding-right: 10px;
+    width: 280xp;
 }
 
 li {
@@ -297,16 +299,16 @@ li {
     font-size: 120%;
     letter-spacing: 3px;
     font-weight: 900;
-    
+
 
 }
 
-#newsletter-info > h2 {
+#newsletter-info>h2 {
     color: #fff;
     padding-bottom: 10px;
 }
 
-#newsletter-info > p {
+#newsletter-info>p {
     margin: 5px;
 }
 
@@ -476,30 +478,35 @@ fieldset {
 /* For larger to medium screens size from 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
-    
+
     #hiking-benefits {
         width: 100%;
+        height: 700px;
+
     }
 
     .benefits-container {
-    justify-content: stretch;
-    width: fit-content;
-    margin-left: 30px;
-}
+        justify-content: stretch;
+        width: fit-content;
+        margin-left: 30px;
+    }
 
     .benefits-text-container {
         flex-wrap: nowrap;
-        Width: 450px; 
-        margin-left: 30px; 
+        Width: 450px;
+        margin-left: 30px;
     }
 
+    #benefits-text div {
+        width: 380px;
+    }
 
-    #best-hikes{
-        height: 950px;
+    #best-hikes {
+        height: 1000px;
     }
 
     .provinces-container {
-        justify-content: space-evenly;    
+        justify-content: space-evenly;
     }
 
     #hikes-link {
@@ -520,9 +527,14 @@ fieldset {
 
 @media screen and (max-width: 950px) {
 
-    .benefits-image-container {
-        width: 400px;
+    #hiking-benefits {
+        height: 700px;
     }
+
+    .benefits-image-container {
+        max-width: 340px;
+    }
+
 
 }
 
@@ -530,5 +542,68 @@ fieldset {
 
 @media screen and (max-width: 800px) {
 
-    
+    #logo {
+        margin-left: 5px;
+    }
+
+    #menu li {
+        clear: left;
+        line-height: 30px;
+    }
+
+    #hiking-benefits {
+        height: 1400px;
+    }
+
+    .benefits-container {
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 1400px;
+
+    }
+
+    .benefits-image-container {
+        max-width: 500px;
+        justify-content: flex-start;
+    }
+
+    #benefits-text div {
+        height: 200px;
+    }
+
+}
+
+/* for  screen sizes 600px and down*/
+
+@media screen and (max-width: 600px) {
+
+    #best-hikes {
+        height: 2000px;
+    }
+
+    #cover-text {
+        bottom: 25px;
+        left: 10px;
+        font-size: 90%;
+        width: 345px;
+
+    }
+    #hiking-benefits {
+        height: 1600px;;
+    }
+
+    #benefits-text div {
+        width: 300px;
+        height: 250px;
+
+    }
+
+    .benefits-image-container {
+        max-width: 300px;
+
+    }
+   
+    #info-section {
+        height: 1300px;
+    }
 }
