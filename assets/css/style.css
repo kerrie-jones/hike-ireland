@@ -202,8 +202,7 @@ h3 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: flex-start;
-    align-content: space-between;
+    justify-content: flex-start;
     
 }
 
@@ -472,26 +471,64 @@ fieldset {
     color: #fff;
 }
 
-/* Media Queries, code taken from CI loverunning project*/
+/* Media Queries*/
 
 /* For larger to medium screens size from 1200px wide and down */
+
 @media screen and (max-width: 1200px) {
     
     #hiking-benefits {
-        width: 65%;
-        height: 900px;
+        width: 100%;
     }
 
     .benefits-container {
-    justify-content: baseline;
+    justify-content: stretch;
+    width: fit-content;
+    margin-left: 30px;
 }
 
     .benefits-text-container {
         flex-wrap: nowrap;
-        width: 100%;
-        
+        Width: 450px; 
+        margin-left: 30px; 
+    }
+
+
+    #best-hikes{
+        height: 950px;
+    }
+
+    .provinces-container {
+        justify-content: space-evenly;    
+    }
+
+    #hikes-link {
+        margin: 20px;
+    }
+
+    #info-section {
+        height: 1000px;
+    }
+
+    .info-signup-container {
+        flex-direction: column-reverse;
+    }
+}
+
+
+/* for medium screen sizes from 950px and down*/
+
+@media screen and (max-width: 950px) {
+
+    .benefits-image-container {
+        width: 400px;
     }
 
 }
 
+/* for small screen sizes 800px and down*/
+
+@media screen and (max-width: 800px) {
+
     
+}
