@@ -473,6 +473,44 @@ fieldset {
     color: #fff;
 }
 
+
+/* Thankyou Page */
+#thankyou {
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    clear: left;
+    background-color: #fff;
+    width: 100%;
+}
+
+.thankyou-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.thankyou-container h2 {
+    padding: 30px;
+    font-size: 200%;
+    align-items: center;
+    text-decoration: underline;
+}
+.thankyou-container h3 {
+    font-size: 150%;
+    padding: 20px;
+}
+
+#thankyou-image-div {
+    background: url(../images/aranka-sinnema-pR4zyhE8I-A-unsplash.jpg);
+    width: 100%;
+}
+
+
+
+
 /* Media Queries*/
 
 /* For larger to medium screens size from 1200px wide and down */
@@ -619,4 +657,5 @@ fieldset {
     #info-section {
         height: 1500px;
     }
+}
 }
