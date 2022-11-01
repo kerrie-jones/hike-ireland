@@ -577,9 +577,10 @@ fieldset {
         width: 500px;
         margin-right: 10px;
         
- 
     }
 
+    #form-bg {
+        height: 1000px;
    
 
 }
