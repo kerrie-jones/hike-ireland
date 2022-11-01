@@ -546,6 +546,7 @@ fieldset {
 
     .provinces-container {
         justify-content: space-evenly;
+        max-width: 800px;
     }
 
     #hikes-link {
