@@ -88,7 +88,7 @@ h3 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('/assets/images/connemara_national_park.jpg') no-repeat center center;
+    background: url(../images/markus-voetter-gnP5YwGK_XM-unsplash.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -168,7 +168,7 @@ h3 {
 
 #benefits-img {
     height: 100%;
-    background: url(../images/male_hiker.jpg) no-repeat center center;
+    background: url(../images/lucas-favre-3xVmlXhI4OY-unsplash.jpg) no-repeat center center;
     background-size: cover;
     border-radius: 50px;
 }
@@ -554,7 +554,7 @@ fieldset {
     }
 
     #info-section {
-        height: 1000px;
+        height: 1200px;
     }
 
     .info-signup-container {
