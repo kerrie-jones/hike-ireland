@@ -342,6 +342,7 @@ footer {
 
 .social-networks>li {
     display: inline;
+    font-weight: 900;
 }
 
 .social-networks i {
@@ -353,11 +354,15 @@ footer {
 #find-us {
     display: inline;
     margin-left: 30px;
+    font-size: larger;
+    font-weight: 900;
 }
 
 #copyright {
     float: right;
     margin-top: 15px;
+    font-size: larger;
+    font-weight: 900;
 }
 
 /* gallery section code adapted from CI love-running project*/
@@ -481,7 +486,7 @@ fieldset {
     position: relative;
     overflow: hidden;
     clear: left;
-    background-color: #fff;
+    background-color: whitesmoke;
     width: 100%;
 }
 
@@ -490,6 +495,9 @@ fieldset {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    height: fit-content;
+    background-color: #283040;
+    color: #fff;
 
 }
 
@@ -497,8 +505,10 @@ fieldset {
     padding: 30px;
     font-size: 200%;
     align-items: center;
-    text-decoration: underline;
+    color: #fff;
+    letter-spacing: 3px;
 }
+
 .thankyou-container h3 {
     font-size: 150%;
     padding: 20px;
@@ -508,9 +518,6 @@ fieldset {
     background: url(../images/aranka-sinnema-pR4zyhE8I-A-unsplash.jpg);
     width: 100%;
 }
-
-
-
 
 /* Media Queries*/
 
@@ -579,8 +586,6 @@ fieldset {
         column-count: 3;
     }
 
-
-
 }
 
 /* for small screen sizes 800px and down*/
@@ -606,10 +611,8 @@ fieldset {
         height: 1550px;
         max-width: 600px;
         margin-left: 0px;
-        
 
     }
-
 
     .benefits-image-container {
         max-width: 600px;
@@ -621,17 +624,17 @@ fieldset {
         height: 200px;
         width: 500px;
         margin-right: 10px;
-        
+
     }
 
     #form-bg {
-        height: 1000px;  
+        height: 1000px;
 
-}
+    }
 
-#pictures {
-    column-count: 2;
-}
+    #pictures {
+        column-count: 2;
+    }
 }
 
 /* for  screen sizes 600px and down*/
@@ -640,8 +643,9 @@ fieldset {
 
     #menu li {
         letter-spacing: 1px;
+        margin-right: 5px;
     }
-    
+
     #best-hikes {
         height: 2000px;
     }
@@ -651,8 +655,8 @@ fieldset {
         left: 10px;
         font-size: 90%;
         width: 345px;
-
     }
+
     #hiking-benefits {
         height: 1700px;
     }
@@ -665,10 +669,9 @@ fieldset {
 
     .benefits-image-container {
         max-width: 300px;
-    
 
     }
-   
+
     #info-section {
         height: 1500px;
     }
