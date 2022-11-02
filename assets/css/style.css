@@ -387,7 +387,7 @@ footer {
     height: 90vh;
     width: 100%;
     background-size: cover;
-    background-image: url(../images/gorse_bush.jpg);
+    background-image: url(../images/aaron-russell-LeqFFt88qbY-unsplash.jpg);
     overflow: hidden;
 
 }
@@ -575,6 +575,11 @@ fieldset {
         max-width: 350px;
     }
 
+    #pictures {
+        column-count: 3;
+    }
+
+
 
 }
 
@@ -620,15 +625,23 @@ fieldset {
     }
 
     #form-bg {
-        height: 1000px;
-   
+        height: 1000px;  
 
+}
+
+#pictures {
+    column-count: 2;
+}
 }
 
 /* for  screen sizes 600px and down*/
 
 @media screen and (max-width: 600px) {
 
+    #menu li {
+        letter-spacing: 1px;
+    }
+    
     #best-hikes {
         height: 2000px;
     }
@@ -659,5 +672,8 @@ fieldset {
     #info-section {
         height: 1500px;
     }
-}
+
+    #pictures {
+        column-count: 1;
+    }
 }
