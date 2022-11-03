@@ -666,7 +666,7 @@ fieldset {
     }
 
     #hiking-benefits {
-        height: 1650px;
+        height: 1500px;
     }
 
     #benefits-text div {
@@ -677,7 +677,8 @@ fieldset {
 
     .benefits-image-container {
         max-width: 300px;
-        padding-top: 300px;
+        max-height: 300px;
+        padding-top: 300px;  
     
     }
 
