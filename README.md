@@ -18,9 +18,15 @@ Hike Ireland is a responsive website with information and inspiration for hikes 
 
 # Design
 ## Colour Scheme
-! [Adobe color scheme] (assets/images/AdobeColor-color theme_connemara_national_park (1).jpeg)
+I used Adobe color wheel to extract themes from the hero image.\
+<img src="assets/images/AdobeColor-color theme_connemara_national_park (1).jpeg" height="300px">
+<img src="assets/images/AdobeColor-color theme_connemara_national_park (2).jpeg" height="300px">
+
 
 ## Typography
+I used google fonts and decided to pair Playfair display, a serif font, with Raleway a sans serif font.
+<img src="assets/images/playfair_display.png" height="200pxpx">
+<img src="assets/images/raleway.png" width="200pxpx">
 ## Imagery
 
 
@@ -44,14 +50,3 @@ Hike Ireland is a responsive website with information and inspiration for hikes 
 # Credits
 ## Content
 ## Media
-
-
-
-
-
-
-
-
-
-
-[def]: url

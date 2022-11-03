@@ -549,7 +549,7 @@ fieldset {
     .benefits-text-container {
         flex-wrap: nowrap;
         Width: 450px;
-        margin-left: 30px;
+        margin-left: 20px;
     }
 
     #benefits-text div {
@@ -616,8 +616,7 @@ fieldset {
 
     .benefits-container {
         flex-direction: column;
-        justify-content: center;
-        height: 1550px;
+        height: 1500px;
         max-width: 600px;
         margin-left: 0px;
 
@@ -667,19 +666,22 @@ fieldset {
     }
 
     #hiking-benefits {
-        height: 1700px;
+        height: 1500px;
     }
 
     #benefits-text div {
         width: 300px;
-        height: 250px;
+        margin-bottom: 50px;
 
     }
 
     .benefits-image-container {
         max-width: 300px;
-
+        padding-top: 300px;
+    
     }
+
+  
 
     #info-section {
         height: 1500px;
