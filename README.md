@@ -64,7 +64,7 @@ I used images of Irish mountain scenery and wildlife to inspire potential hikers
 
 
 ### Signup Section
-<img src="assets/images/signup_section_screenshot.png">
+<img src="assets/images/signup_section_screenshot.png" width="800px">
 
 - In the signup section there is a form which the user can fill out to signup to the monthly newsletter
 - The signup section contains a cover text with information about the monthly newsletter.
@@ -72,7 +72,7 @@ I used images of Irish mountain scenery and wildlife to inspire potential hikers
 
 
 ### The footer
-<img src="assets/images/footer_screenshot.png" width="800px">
+<img src="assets/images/footer_screenshot.pngA" width="800px">
 
 - The footer holds links to social media 
 - It also has a copyright notice
@@ -88,7 +88,7 @@ I used images of Irish mountain scenery and wildlife to inspire potential hikers
 
 
 ### The Signup Page
-<img src="assets/images/signup_page_screenshot.png" width="800px">" width="800px">
+<img src="assets/images/signup_page_screenshot.png" width="800px">
 
 - This page will allow the user to get signed up for the monthly newsletter and get information about meetups. 
 - There is a form which the user can fill out to signup to the monthly newsletter.
@@ -106,15 +106,43 @@ I used images of Irish mountain scenery and wildlife to inspire potential hikers
 - Make the top hikes section have clickable links to each hike with more inforamtion and images of each individual hike
 
 # Testing
+I have tested tested the website on various different screen sizes in dev tools. Lighthouse showed I had poor performance due to image size so I resized images with Mac Preview.
+
 ## Validator Testing
--
--
+### HTML
+- index.html  No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
+- gallery.html  No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
+- signup.html  No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
+- thankyou.html  No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
+### CSS
+- style.css No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator)
+
 ## Unfixed Bugs
--
--
+- Text and image in benefits section not centred on screen sizes of 600px and under
+
 # Deployment
+The site was deployed to GitHub pages.\
+The steps to deploy are as follows:
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+# Technologies Used 
+## Languages used
+- HTML
+- CSS
+## Frameworks, Libraries & Programs Used
+- Google Fonts - Fonts Raleway and Playfair Display were imported for use throughout the project
+- Font Awesome - Icons for the benefits of hiking section, top hikes section and footer were used from this site
+- GIT - used for version control
+- GITHub - code pushed from GIT and stored in GITHub
+- GITPod - workspace used in gitpod to work on project then push to github
+- Dev Tools - were used to check how project looked on different screen sizes and also to troubleshoot errors and try out changes
+- Unsplash - stock image site used for images on the website
+- Mac Preview - used to resize large images
 
 # Credits
+
 ## Content
 -
 -
@@ -124,3 +152,4 @@ I used images of Irish mountain scenery and wildlife to inspire potential hikers
 -
 -
 -
+
