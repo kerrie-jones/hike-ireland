@@ -49,6 +49,7 @@ h2 {
     float: right;
     margin-right: 30px;
     list-style-type: none;
+    font-weight: 900;
 }
 
 #menu a {
@@ -114,7 +115,7 @@ h3 {
 #hiking-benefits {
     height: 600px;
     padding-bottom: 20px;
-    background-color: rgba(245, 245, 245, );
+    background-color: whitesmoke;
     overflow: hidden;
 
 }
@@ -137,7 +138,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    height: 600x;
+    height: 600px;
     width: 50%;
 }
 
@@ -149,7 +150,9 @@ h3 {
 
 #benefits-text h2 {
     padding: 5px;
-    margin-left: 30px;
+    font-family: Raleway, sans serif;
+    font-weight: 900;
+    border-bottom: 1px solid black;
 }
 
 #benefits-text p {
@@ -192,10 +195,12 @@ h3 {
 #best-hikes-heading {
     text-align: left;
     font-size: 280%;
-    color: black;
+    color: #fff;
     padding-left: 30px;
-    background-color: #A3B4BF;
+    padding-right: 30px;
+    background-color: #283040;
     line-height: 75px;
+    width: fit-content;
 
 }
 
@@ -221,7 +226,10 @@ h3 {
     font-size: 180%;
     text-transform: uppercase;
     color: #fff;
-    margin: 20px 10px
+    margin: 20px 10px;
+    font-family: Raleway, sans serif;
+    font-weight: 900;
+
 }
 
 #provinces ol {
@@ -230,7 +238,7 @@ h3 {
     font-weight: 900;
     padding-bottom: 20px;
     padding-right: 10px;
-    width: 280xp;
+    width: 280px;
 }
 
 li {
