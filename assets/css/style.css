@@ -12,7 +12,6 @@ body {
     color: #3a3a3a;
     background-color: whitesmoke;
 
-
 }
 
 /* headings and logo */
@@ -179,7 +178,7 @@ h3 {
 /* hikes in Ireland */
 
 #best-hikes {
-    height: 800px;
+    height: 600px;
     width: 100%;
     color: #3a3a3a;
     margin-top: 30px;
@@ -195,12 +194,15 @@ h3 {
 #best-hikes-heading {
     text-align: left;
     font-size: 280%;
-    color: #fff;
+    color:black;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: #283040;
+    background-color:#fff;
     line-height: 75px;
     width: fit-content;
+    border-radius: 10px;
+    border: solid 2px gray;
+    margin-left: 5px;
 
 }
 
@@ -256,9 +258,8 @@ li {
     padding: 10px 24px;
     text-align: center;
     font-size: 120%;
-    float: right;
-    margin-right: 50px;
-    margin-top: 50px;
+    float: left;
+    margin-left: 50px;
     border-radius: 10px;
     text-transform: capitalize;
 }
