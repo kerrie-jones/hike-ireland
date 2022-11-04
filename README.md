@@ -54,29 +54,34 @@ I used images of Irish mountain scenery and wildlife to inspire potential hikers
 <img src="assets/images/benefits_section_screenshot.png" width="800px">
 
 - The benefits of hiking section goes through some of the benefits of hiking.
-- The user will see the positive impact of hiking and be inspred and encouraged to get out and enjoy Ireland's scenery
+- Icons aree from [font-awesome](https://fontawesome.com/)
+- The user will see the positive impact of hiking and be inspired and encouraged to get out and enjoy Ireland's scenery
 
 ### Top Hikes in Ireland Section
 <img src="assets/images/tophikes_screenshot.png" width="800px">
+<img src="assets/images/top_hikes_screenshot2.png" width="800px">
 
 - This section contains the top hikes in Ireland by province. We have chosen to show the top 6 for each.
 - There is a clickable link in this section which brings the user to the Hikes Gallery page. It will open in a new tab 
+- removed background image to make less distracting
 
 
 ### Signup Section
 <img src="assets/images/signup_section_screenshot.png" width="800px">
 
-- In the signup section there is a form which the user can fill out to signup to the monthly newsletter
+- In the signup section there is a form which the user can fill out to signup to the monthly newsletter.
 - The signup section contains a cover text with information about the monthly newsletter.
 - when the user completes the form they will be brought to a thankyou page thanking them for subscribing.
 
 
 ### The footer
-<img src="assets/images/footer_screenshot.pngA" width="800px">
+<img src="assets/images/footer_screenshot.png" width="800px">
 
 - The footer holds links to social media 
 - It also has a copyright notice
 - When the user clicks on social media links they will open in a new tab
+- footer is fixed so it is always visible at bottom of page when user is scrolling
+- footer is on all four html pages
 
 
 ### The Gallery Page
@@ -144,7 +149,6 @@ thankyou.html\
 
 # Deployment
 The site was deployed to GitHub pages.\
-
 The steps to deploy are as follows:
 - In the GitHub repository, navigate to the Settings tab
 - Select pages from the left column
@@ -164,6 +168,7 @@ The steps to deploy are as follows:
 - Dev Tools - were used to check how project looked on different screen sizes and also to troubleshoot errors and try out changes
 - Unsplash - stock image site used for images on the website
 - Mac Preview - used to resize large images
+- Adobe Color Wheel - used to extract  color theme from main image
 
 # Credits
 - html body initial structure and navigation bar and footer taken from CI loverunning project
@@ -172,5 +177,6 @@ The steps to deploy are as follows:
 ## Content
 - Content was written by Kerrie Jones
 ## Media
--All images taken from [Unsplash.com](https://unsplash.com/)\
+- All images taken from [Unsplash.com](https://unsplash.com/)
+- Icons are from [font-awesome](https://fontawesome.com/)
 
