@@ -185,12 +185,10 @@ h3 {
     color: #3a3a3a;
     margin-top: 30px;
     /* image from unsplash.com */
-    background: url(../images/mark-lawson-UELY_6LERhU-unsplash.jpg) no-repeat center center;
-    box-shadow: inset 0 0 0 800px rgba(40, 48, 64, 0.3);
+    background-color: #818A8C;
     background-size: cover;
     box-sizing: border-box;
     overflow: hidden;
-
 
 }
 

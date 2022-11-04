@@ -1,7 +1,7 @@
 # Hike Ireland
 Hike Ireland is a responsive website with information and inspiration for hikes in Ireland. It allows users learn about the benefits of hiking and find inspiration for hikes in every province.
 - [Link to deployed site here](https://kerrie-jones.github.io/hike-ireland/)\
-- Add image from am i responsive here
+<img src="assets/images/am_i_responsive.png">
 
 
 # User Experience UX
@@ -106,7 +106,9 @@ I used images of Irish mountain scenery and wildlife to inspire potential hikers
 - Make the top hikes section have clickable links to each hike with more inforamtion and images of each individual hike
 
 # Testing
-- I have tested tested the website on various different screen sizes in dev tools. 
+- I have tested the website on various different screen sizes in dev tools device toolbar. 
+- I have tested the website on chrome safari and firefox.
+- I confirm that the form requires entries to be submitted and the email field requires an email entry.
 - Lighthouse showed I had poor performance due to image size so I resized images with Mac Preview which improved performance\
 index.html\
 <img src="assets/images/index_lighthouse_final_mobile.png" width="400px">
@@ -114,12 +116,12 @@ index.html\
 gallery.html\
 <img src="assets/images/gallery_final_lighthouse_mobile.png" width="400px">
 <img src="assets/images/gallery_lighthouse_final_desktop.png" width="400px">\
-signup.html
-<img src="assets/images/signup_page_final_lighthouse_mobile.png" width="300px">
-<img src="assets/images/signup_page_final_desktop_lighthouse.png" width="300px">
-thankyou.html
-<img src="" width="400px">
-<img src="" width="400px">
+signup.html\
+<img src="assets/images/signup_page_final_lighthouse_mobile.png" width="400px">
+<img src="assets/images/signup_page_final_desktop_lighthouse.png" width="400px">
+thankyou.html\
+<img src="assets/images/thankyou_final_lighthouse_mobile.png" width="400px">
+<img src="assets/images/thankyou_final_lighthouse_desktop.png" width="400px">
 
 - Bug in benefits of hiking section in firefox and safari where image is covering end of text when screen is less than 600 px. I fixed issue by increasing padding above image and decreasing max-width of image container in media query for screen sizes 600px and below
 - In safari the text was spilling out of container slightly fixed by changing provinces div to fit content.
@@ -132,9 +134,13 @@ thankyou.html
 - thankyou.html  No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
 ### CSS
 - style.css No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator)
+## Bugs
+- Bug in benefits of hiking section in firefox and safari where image is covering end of text when screen is less than 600 px. 
+- I fixed issue by increasing padding above image and decreasing max-width of image container in media query for screen sizes 600px and below
+- In safari the text was spilling out of container slightly fixed by changing provinces div to fit content.
 
 ## Unfixed Bugs
-- Too much space below image in benefits section in chrome but when I correct this the image covers some of the text in safari and firefox.
+- Too much space below image in benefits section in chrome but when I correct this the image covers some of the text in safari and firefox. I hope to revisit this soon.
 
 # Deployment
 The site was deployed to GitHub pages.\
@@ -160,15 +166,11 @@ The steps to deploy are as follows:
 - Mac Preview - used to resize large images
 
 # Credits
-CI 
+- html body initial structure and navigation bar and footer taken from CI loverunning project
+- Hero-image code taken from  CI loverunnning project
 
 ## Content
--
--
+- Content was written by Kerrie Jones
 ## Media
--
--
--
--
--
+-All images taken from [Unsplash.com](https://unsplash.com/)\
 
