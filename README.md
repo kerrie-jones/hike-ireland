@@ -55,8 +55,6 @@ I used images of Irish mountain scenery and wildlife to inspire potential hikers
 
 - The benefits of hiking section goes through some of the benefits of hiking.
 - The user will see the positive impact of hiking and be inspred and encouraged to get out and enjoy Ireland's scenery
-- Bug in benefits of hiking section in firefox and safari where image is covering end of text when screen is less than 600 px. I fixed issue by increasing padding above image and decreasing max-width of image container in medisa query for screen sizes 600px and below
-- In safari the text is spilling out of container slightly 
 
 ### Top Hikes in Ireland Section
 <img src="assets/images/tophikes_screenshot.png" width="800px">
@@ -108,7 +106,23 @@ I used images of Irish mountain scenery and wildlife to inspire potential hikers
 - Make the top hikes section have clickable links to each hike with more inforamtion and images of each individual hike
 
 # Testing
-I have tested tested the website on various different screen sizes in dev tools. Lighthouse showed I had poor performance due to image size so I resized images with Mac Preview.
+- I have tested tested the website on various different screen sizes in dev tools. 
+- Lighthouse showed I had poor performance due to image size so I resized images with Mac Preview which improved performance\
+index.html\
+<img src="assets/images/index_lighthouse_final_mobile.png" width="400px">
+<img src="assets/images/index_final_lighthouse_desktop.png" width="400px">\
+gallery.html\
+<img src="assets/images/gallery_final_lighthouse_mobile.png" width="400px">
+<img src="assets/images/gallery_lighthouse_final_desktop.png" width="400px">\
+signup.html
+<img src="assets/images/signup_page_final_lighthouse_mobile.png" width="300px">
+<img src="assets/images/signup_page_final_desktop_lighthouse.png" width="300px">
+thankyou.html
+<img src="" width="400px">
+<img src="" width="400px">
+
+- Bug in benefits of hiking section in firefox and safari where image is covering end of text when screen is less than 600 px. I fixed issue by increasing padding above image and decreasing max-width of image container in media query for screen sizes 600px and below
+- In safari the text was spilling out of container slightly fixed by changing provinces div to fit content.
 
 ## Validator Testing
 ### HTML
@@ -120,15 +134,16 @@ I have tested tested the website on various different screen sizes in dev tools.
 - style.css No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator)
 
 ## Unfixed Bugs
-- Text and image in benefits section not centred on screen sizes of 600px and under
+- Too much space below image in benefits section in chrome but when I correct this the image covers some of the text in safari and firefox.
 
 # Deployment
 The site was deployed to GitHub pages.\
 
 The steps to deploy are as follows:
 - In the GitHub repository, navigate to the Settings tab
-- From the source section drop-down menu, select the Master Branch
-- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+- Select pages from the left column
+- Select main branch and save
+- Site now deployed but may take a few minutes
 
 # Technologies Used 
 ## Languages used
