@@ -219,7 +219,7 @@ h3 {
     background-color: rgba(40, 48, 64, .8);
     margin: 20px 5px;
     height: 380px;
-    width: 290px;
+    width: fit-content;
 
 }
 
@@ -666,7 +666,8 @@ fieldset {
     }
 
     #hiking-benefits {
-        height: 1500px;
+        height: 1600px;
+        margin-bottom: 100px;
     }
 
     #benefits-text div {
@@ -678,7 +679,7 @@ fieldset {
     .benefits-image-container {
         max-width: 300px;
         max-height: 300px;
-        padding-top: 500px;  
+        padding-top: 400px;  
     
     }
 

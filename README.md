@@ -1,8 +1,8 @@
 # Hike Ireland
-- Link to deployed site\
 Hike Ireland is a responsive website with information and inspiration for hikes in Ireland. It allows users learn about the benefits of hiking and find inspiration for hikes in every province.
+- [Link to deployed site here](https://kerrie-jones.github.io/hike-ireland/)\
 - Add image from am i responsive here
-- shields.io badges 
+
 
 # User Experience UX
 ## User Stories
@@ -55,6 +55,8 @@ I used images of Irish mountain scenery and wildlife to inspire potential hikers
 
 - The benefits of hiking section goes through some of the benefits of hiking.
 - The user will see the positive impact of hiking and be inspred and encouraged to get out and enjoy Ireland's scenery
+- Bug in benefits of hiking section in firefox and safari where image is covering end of text when screen is less than 600 px. I fixed issue by increasing padding above image and decreasing max-width of image container in medisa query for screen sizes 600px and below
+- In safari the text is spilling out of container slightly 
 
 ### Top Hikes in Ireland Section
 <img src="assets/images/tophikes_screenshot.png" width="800px">
@@ -122,6 +124,7 @@ I have tested tested the website on various different screen sizes in dev tools.
 
 # Deployment
 The site was deployed to GitHub pages.\
+
 The steps to deploy are as follows:
 - In the GitHub repository, navigate to the Settings tab
 - From the source section drop-down menu, select the Master Branch
@@ -142,6 +145,7 @@ The steps to deploy are as follows:
 - Mac Preview - used to resize large images
 
 # Credits
+CI 
 
 ## Content
 -
